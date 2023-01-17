@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+    <title>Contacto</title>
+</head>
+<body>
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark sticky-top">
+        <div class="container-fluid">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="/index.html">Inicio</a>
+            </li>
+           <li class="nav-item">
+              <a class="nav-link" href="/nosotros.html">Nosotros</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/servicios.html">Servicios</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="/contacto.html">Contacto</a>
+            </li>
+          </ul>
+        </div>
+    </nav>
+
+    <div class="container m-5">
+      <div class="row">
+        <div class="col-sm-6">
+          <h3>Contáctanos</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse, perspiciatis quis ullam velit sit vero tempore veritatis alias sunt eaque.</p>
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item">Dirección: Los Lirios, San Juan de Miraflores 15801</li>
+            <li class="list-group-item">Email: infoshop@zapatillas.com</li>
+            <li class="list-group-item">Phone: +51 945 821 343</li>
+            <li class="list-group-item">Preguntas Frecuentes</li>
+          </ul>
+
+          <div class="card w-50 p-3">
+            <div class="card-body">
+              <h5 class="card-title">Ubicación</h5>
+            </div>
+            <div class="ratio ratio-1x1">
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3900.3715352776385!2d-76.98439538578604!3d-12.155089347233002!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9105b84113003ee7%3A0x1fd71e1502ba8da6!2sMall%20del%20Sur!5e0!3m2!1ses-419!2spe!4v1673540677640!5m2!1ses-419!2spe" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-6">
+          <h3>Escríbenos</h3>
+          <form action="/action_page.php">
+            <div class="row">
+              <div class="col mb-3 mt-3">
+                <label for="email" class="form-label">Nombres:</label>
+                <input type="email" class="form-control" id="email" placeholder="Ingresa tus nombres" name="email">
+              </div>
+              <div class="col mb-3 mt-3">
+                <label for="pwd" class="form-label">Apellidos:</label>
+                <input type="password" class="form-control" id="pwd" placeholder="Ingresa tus apellidos" name="pswd">
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="col mb-3 mt-3">
+                <label for="email" class="form-label">Email:</label>
+                <input type="email" class="form-control" id="email" placeholder="Ingresa tu correo electrónico" name="email">
+              </div>
+              <div class="col mb-3 mt-3">
+                <label for="pwd" class="form-label">Teléfono</label>
+                <input type="password" class="form-control" id="pwd" placeholder="Ingresa tu télefono celular" name="pswd">
+              </div>
+            </div>
+
+            <label for="comment">Comentarios:</label>
+            <textarea class="form-control" rows="5" id="comment" name="text"></textarea>
+            
+            <div class="form-check mb-3">
+              <label class="form-check-label">
+                <input class="form-check-input" type="checkbox" name="remember"> Remember me
+              </label>
+            </div>
+            
+            <button type="submit" class="btn btn-primary">Enviar</button>
+          </form>
+        </div>
+      </div>
+    </div>
+</body>
+</html>
